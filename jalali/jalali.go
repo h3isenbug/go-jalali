@@ -156,7 +156,7 @@ func Strftime(format string, t time.Time) string {
 		{"%w", fmt.Sprintf("%d", t.Weekday())},
 		{"%Z", zone},
 		{"%X", fmt.Sprintf("%02d:%02d:%02d", t.Hour(), t.Minute(), t.Second())},
-		{"%x", fmt.Sprintf("%d/%02d/%02d", jyear, t.Month(), t.Day())},
+		{"%x", fmt.Sprintf("%d/%02d/%02d", jyear, jmonth, jday)},
 		{"%-x", fmt.Sprintf("%s/%d/%d", yy, t.Month(), t.Day())},
 		{"SUBSTITUTION_MARKER", "%"},
 	}
