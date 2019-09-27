@@ -11,9 +11,9 @@ var (
 	jDaysInMonth                  = [...]int{31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29}
 	persianMonthNames             = [...]string{1: "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"}
 	persianMonthNamesPEnglish     = [...]string{1: "Farvardin", "Ordibehesht", "Khordad", "Tir", "Mordad", "Shahrivar", "Mehr", "Aban", "Azar", "Dey", "Bahman", "Esfand"}
-	persianWeekdayNames           = [...]string{"شنبه", "یک‌شنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه", "جمعه"}
-	persianWeekdayNamesPEnglish   = [...]string{"Shanbeh", "YekShanbeh", "DoShanbeh", "SehShanbeh", "ChaharShanbeh", "PanjShanbeh", "JomE"}
-	persianWeekdayNamesShort      = [...]string{"ش", "۱ش ", "۲ش", "۳ش", "۴ش", "۵ش", "ج "}
+	persianWeekdayNames           = [...]string{"یک‌شنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه", "جمعه", "شنبه"}
+	persianWeekdayNamesPEnglish   = [...]string{"YekShanbeh", "DoShanbeh", "SehShanbeh", "ChaharShanbeh", "PanjShanbeh", "JomE", "Shanbeh"}
+	persianWeekdayNamesShort      = [...]string{"۱ش ", "۲ش", "۳ش", "۴ش", "۵ش", "ج ", "ش"}
 	persianMeridianIndicator      = [...]string{"قبل از ظهر", "بعد از ظهر"}
 	persianMeridianIndicatorShort = [...]string{"ق.ظ", "ب.ظ"}
 )
